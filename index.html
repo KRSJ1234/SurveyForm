@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <link href="SurveyStyle.css" rel="stylesheet">
+    <title>A surveyform design - Kevin Jose</title>
+</head>
+<main>
+    <h1 id="title">A Survey Form Design</h1>
+    <p id="description">This is a small survey to know if anyone 
+        of you is coming to Nancy's Wedding</p>
+    <div id="form-container">
+        <form id="survey-form">
+            <label for="name" id="name-label">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <br><br>
+            <label for="email" id="email-label">Email-ID:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <br><br>
+            <label for="number" id="number-label">Number:</label><br>
+            <input type="text" id="number" name="number"><br>
+            <br><br>
+            <label for="vehicle" id="vehicle-label">Vehicle in which you are coming:</label><br>
+            <select name="vehicle" id="dropdown">
+                <option value="Nota" selected>None</option>
+                <option value="TwoWheel">2 Wheeler</option>
+                <option value="ThreeWheel">3 Wheeler</option>
+                <option value="FourWheel">4 Wheeler</option>
+                <option value="NoWheel">I am walking</option>
+            </select><br>
+            <br><br>
+            <label for="radio-group-div" id="radio-group-div-label">Please choose One:</label>
+            <div id="radio-group-div">
+                <input type="radio" id="radio1" name="Number_of_people" value="single" checked>
+                <label for="radio1" id="radio1-label">I am coming alone</label><br>
+                <input type="radio" id="radio2" name="Number_of_people" value="double">
+                <label for="radio2" id="radio1-label">I am coming with one other person</label><br>
+                <input type="radio" id="radio3" name="Number_of_people" value="triple">
+                <label for="radio3" id="radio1-label">I am coming with two other persons</label><br>
+                <br><br>
+            </div>
+            <lable for="checkbox-group-div" id="checkbox-group-div-label">What would you like to see there? (Please select all that apply)</lable>
+            <div id="checkbox-group-div">
+                <input type="checkbox" id="checkbox1" name="Party_amenities" value="Drinks" checked>
+                <label for="checkbox1" id="checkbox1-label">Drinks</label><br>
+                <input type="checkbox" id="checkbox2" name="Party_amenities" value="DJ">
+                <label for="checkbox2" id="checkbox1-label">DJ</label><br>
+                <input type="checkbox" id="checkbox3" name="Party_amenities" value="Accomodation_and_Travel">
+                <label for="checkbox3" id="checkbox1-label">Travel and accomodation</label><br>
+                <br><br>
+            </div>
+            <label for="textbox-query" id="textbox-label">Please share if you have any questions or additional comments:</label><br>
+            <input type="text" id="textbox-query" name="comments"><br><br><br><br>
+
+            <input type="submit" id="submit">
+            <br><br>
+        </form>
+    </div>
+
+</main>

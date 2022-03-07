@@ -1,9 +1,11 @@
 #title{
     text-align: center;
-
+    font-family: 'Hubballi', cursive;
 }
 
 #description{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 
 }
 
@@ -16,6 +18,8 @@
 }
 
 #name-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 
 }
 
@@ -24,7 +28,8 @@
 }
 
 #email-label{
-
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 }
 
 #email{
@@ -32,6 +37,8 @@
 }
 
 #number-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 
 }
 
@@ -39,11 +46,16 @@
 
 }
 
-#vehicle-label{}
+#vehicle-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
+}
 
 #dropdown{}
 
 #radio-group-div-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 
 }
 
@@ -60,6 +72,8 @@
 }
 
 #radio1-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
     
 }
 #radio3{
@@ -67,6 +81,8 @@
 }
 
 #checkbox-group-div-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 
 }
 #checkbox-group-div{}
@@ -75,6 +91,8 @@
 
 }
 #checkbox1-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 
 }
 #checkbox2{
@@ -85,6 +103,8 @@
 
 }
 #textbox-label{
+    text-align: center;
+    font-family: 'Hubballi', cursive;
 }
 
 #textbox-query{

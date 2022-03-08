@@ -15,12 +15,14 @@ body{
 
 }
 
-#form-container{
-
-}
 
 #survey-form{
-
+    margin: auto;
+    width: fit-content;
+    background-color: gray;
+    padding: 5%;
+    border-radius: 4%;
+    box-shadow: 0.4rem 0.4rem 1rem black, -0.4rem -0.4rem 1rem black ;
 }
 
 #name-label{
@@ -30,6 +32,8 @@ body{
 }
 
 #name{
+    width: 50%;
+    max-width: 20rem;
 
 }
 
@@ -39,6 +43,8 @@ body{
 }
 
 #email{
+    width: 50%;
+    max-width: 20rem;
 
 }
 
@@ -49,7 +55,8 @@ body{
 }
 
 #number{
-
+    width: 50%;
+    max-width: 20rem;
 }
 
 #vehicle-label{
@@ -57,7 +64,10 @@ body{
     font-family: 'Hubballi', cursive;
 }
 
-#dropdown{}
+#dropdown{
+    width: 50%;
+    max-width: 20rem;
+}
 
 #radio-group-div-label{
     text-align: center;
@@ -65,24 +75,24 @@ body{
 
 }
 
-#radio-group-div{
-
-}
 
 #radio1{
+    margin-left: 3%;
 
 }
 
 #radio2{
+    margin-left: 3%;
 
 }
 
-#radio1-label{
+.radio1-label{
     text-align: center;
     font-family: 'Hubballi', cursive;
     
 }
 #radio3{
+    margin-left: 3%;
 
 }
 
@@ -91,21 +101,24 @@ body{
     font-family: 'Hubballi', cursive;
 
 }
-#checkbox-group-div{}
+
 
 #checkbox1{
+    margin-left: 3%;
 
 }
-#checkbox1-label{
+.checkbox1-label{
     text-align: center;
     font-family: 'Hubballi', cursive;
 
 }
 #checkbox2{
+    margin-left: 3%;
 
 }
 
 #checkbox3{
+    margin-left: 3%;
 
 }
 #textbox-label{
@@ -114,16 +127,14 @@ body{
 }
 
 #textbox-query{
+    max-width: 20rem;
+    
 
 }
 #submit{
-
-}
-.align-center{
-    margin: auto;
-    width: fit-content;
-    background-color: gray;
-    padding: 5%;
-    border-radius: 4%;
-    box-shadow: 0.4rem 0.4rem 1rem black, -0.4rem -0.4rem 1rem black ;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    color: gray;
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+    cursor: pointer;
 }
